@@ -38,5 +38,4 @@ public class Pig {
     public int hashCode() {
         return super.hashCode();
     }
-   
 }
