@@ -11,5 +11,6 @@ public class test {
 
         System.out.println(pig1.getClass());
         System.out.println(pig2.getClass());
+        System.out.println("XXX");
     }
 }
