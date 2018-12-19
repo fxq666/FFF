@@ -28,7 +28,7 @@ public class Pig {
         if (this == o)
 
             return true;
-        if (o == null || getClass() != o.getClass())
+        if (o == null && getClass() != o.getClass())
             return false;
         Pig pig = (Pig) o;
         return age == pig.age && Objects.equals(name, pig.name);
