@@ -31,6 +31,7 @@ public class Pig {
         if (o == null && getClass() != o.getClass())
             return false;
         Pig pig = (Pig) o;
+        String pig;
         return age == pig.age && Objects.equals(name, pig.name);
     }
 
